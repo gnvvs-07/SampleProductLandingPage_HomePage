@@ -1,0 +1,24 @@
+.image-gallery-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-scroll-container {
+  display: flex;
+  animation: scroll 10s linear infinite;
+  gap: 80px;
+}
+
+.gallery-image {
+  width: 70px;
+  height: auto;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

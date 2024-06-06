@@ -1,0 +1,10 @@
+.img-container {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.heading-2,
+a {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
